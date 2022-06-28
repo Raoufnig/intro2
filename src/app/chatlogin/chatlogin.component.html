@@ -1,0 +1,31 @@
+
+<div class="container" id="container">
+	
+	<div class="form-container sign-in-container">
+        
+		<form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+            <input type="tel" placeholder="Phone Number"/>
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button (click)="gotoChat()">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+
+			<div class="overlay-panel overlay-right">
+				<h1>Salut, l'Ami!</h1>
+				<p>Bienvenue dans notre Application de Chat. Vous n'avez pas de compte? Creez en ICI</p>
+				<button class="ghost" id="signUp" (click)="gotoRegistration()">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
