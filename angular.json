@@ -36,8 +36,7 @@
                "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "src/assets/main.js",
-              "node_modules/jquery/dist/jquery.min.js"
+              "src/assets/main.js"
             ]
           },
           "configurations": {
@@ -107,7 +106,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
+             
             ]
           }
         }

@@ -15,7 +15,7 @@ export class ChatloginComponent implements OnInit {
   constructor(private router: Router) {}
 
   gotoChat(){
-      this.router.navigate(['/Chat']);  // define your component where you want to go
+      this.router.navigate(['/liste']);  // define your component where you want to go
   }
   gotoRegistration(){
     this.router.navigate(['/Registration']);
